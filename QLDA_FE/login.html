@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+
+    <link rel='shortcut icon' href='img/joystick.png' />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+    <section class="form-02-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="_lk_de" style="margin-bottom: 100px; margin-top: 50px">
+              <div class="form-03-main">
+                <div class="logo">
+                  <img src="img/login.png">
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control _ge_de_ol" type="text" placeholder="Enter your email" required="" aria-required="true" style="background: #f3fde8">
+                </div>
+
+                <div class="form-group">
+                  <input id="password"type="password" name="password" class="form-control _ge_de_ol"  placeholder="Enter your password" required="" aria-required="true" style="background: #f3fde8">
+                </div>
+
+                <div class="checkbox form-group">
+                  <div class="form-check" >
+                    <input name="show-password" class="form-check-input" type="checkbox" value="" id="show-password">
+                    <label class="form-check-label" for="show-password">
+                      Hiện mật khẩu
+                    </label>
+                    <script>
+
+                      document.querySelector("#show-password").addEventListener("change", function() {
+                        if (this.checked) {
+                          document.querySelector("#password").type = "text";
+                        } else {
+                          document.querySelector("#password").type = "password";
+                        }
+                      });
+
+                    </script>
+                  </div>
+
+                  <a href="#" style="text-decoration: none; color: #0c356a">Quên mật khẩu</a>
+                </div>
+
+                <div class="form-group"  style="text-align: center">
+                  <div class="_btn_022">
+                    <button type="submit" style="font-weight: bold;padding: 10px 100px; background: #3b5998; color: white; border: 2px solid white; border-radius: 10px; ">SIGN IN</button>
+                  </div>
+                  <hr>
+                  <a href="" style="text-decoration: none; font-style: italic; color: #3b5998 ">You don't have account? Register rightnow!</a>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
