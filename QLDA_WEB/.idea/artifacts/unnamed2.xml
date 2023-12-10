@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="unnamed2">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed2</output-path>
+    <root id="root">
+      <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.32" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,104 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #AEDEFC;
+  color: #0C356A;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  background-color: #F3FDE8;
+  color: #0C356A;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 12px;
+  margin: 0 40px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+
+.left-group {
+  width: 338px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.btn:hover {
+  background-color: #dbe3d9;
+}
+
+.id-group {
+  background-color: #FFD80A;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.setting-group{
+  /*width: fit-content;*/
+  margin-left: -40px;
+}
+.setting-item {
+  width: 100%;
+  height: fit-content;
+  background-color: #F3FDE8;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  padding: 20px 20px;
+}
+
+.setting-item .number-input {
+  background: transparent;
+  width: 60px;
+  border: none;
+}
+
+.input-group {
+  float: right;
+}
+
+.number-input{
+  font-size: 16px;
+  color: #0C356A;
+}
+
+.right-group{
+  float: right;
+  margin: 50px 100px;
+}
+
+.list-player{
+  width: 400px;
+  background-color: #A8DF8E;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+  width: 220px;
+  padding: 20px;
+  background-color: #F3FDE8;
+  border-radius: 16px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
